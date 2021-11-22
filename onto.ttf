@@ -7,65 +7,65 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
-@prefix onto: <https://github.com/MoussaDeme/onto/blob/master/onto.ttf#> .
+@prefix Personne: <https://github.com/MoussaDeme/onto/blob/master/onto.ttf#> .
 
 <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
 
-onto:Rapport a rdfs:Class ;
+Personne:admin a rdfs:Class ;
     rdfs:label "Rapport" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:Concept a rdfs:Class ;
+Personne:User a rdfs:Class ;
     rdfs:label "Concept" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-onto:x a rdf:Property ;
+Personne:x a rdf:Property ;
     rdfs:label "x" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:y a rdf:Property ;
+Personne:y a rdf:Property ;
     rdfs:label "y" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:xRatingValue a rdf:Property ;
+Personne:xRatingValue a rdf:Property ;
     rdfs:label "xRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:yRatingValue a rdf:Property ;
+Personne:yRatingValue a rdf:Property ;
     rdfs:label "yRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:degradName a rdf:Property ;
+Personne:degradName a rdf:Property ;
     rdfs:label "degradName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:degradColors a rdf:Property ;
+Personne:degradColors a rdf:Property ;
     rdfs:label "degradColors" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-onto:creationDate a rdf:Property ;
+Personne:creationDate a rdf:Property ;
     rdfs:label "creationDate" ;
     rdfs:domain o:Resource .
 
-onto:hasActant a rdf:Property ;
+Personne:hasActant a rdf:Property ;
     rdfs:label "a comme actant" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-onto:hasDoc a rdf:Property ;
+Personne:hasDoc a rdf:Property ;
     rdfs:label "a comme document" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-onto:hasConcept a rdf:Property ;
+Personne:hasConcept a rdf:Property ;
     rdfs:label "a comme concept" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
