@@ -12,62 +12,60 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
 
-jdc:Rapport a rdfs:Class ;
+onto:Rapport a rdfs:Class ;
     rdfs:label "Rapport" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Concept a rdfs:Class ;
+onto:Concept a rdfs:Class ;
     rdfs:label "Concept" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-jdc:x a rdf:Property ;
+onto:x a rdf:Property ;
     rdfs:label "x" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:y a rdf:Property ;
+onto:y a rdf:Property ;
     rdfs:label "y" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:xRatingValue a rdf:Property ;
+onto:xRatingValue a rdf:Property ;
     rdfs:label "xRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:yRatingValue a rdf:Property ;
+onto:yRatingValue a rdf:Property ;
     rdfs:label "yRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:degradName a rdf:Property ;
+onto:degradName a rdf:Property ;
     rdfs:label "degradName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:degradColors a rdf:Property ;
+onto:degradColors a rdf:Property ;
     rdfs:label "degradColors" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-
-jdc:creationDate a rdf:Property ;
+onto:creationDate a rdf:Property ;
     rdfs:label "creationDate" ;
     rdfs:domain o:Resource .
 
-jdc:hasActant a rdf:Property ;
+onto:hasActant a rdf:Property ;
     rdfs:label "a comme actant" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:hasDoc a rdf:Property ;
+onto:hasDoc a rdf:Property ;
     rdfs:label "a comme document" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-
-jdc:hasConcept a rdf:Property ;
+onto:hasConcept a rdf:Property ;
     rdfs:label "a comme concept" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
