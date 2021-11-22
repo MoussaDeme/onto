@@ -7,7 +7,7 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
-@prefix onto: <https://github.com/MoussaDeme/onto/blob/master/onto.ttf>.
+@prefix onto: <https://github.com/MoussaDeme/onto/blob/master/onto.ttf#> .
 
 <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
